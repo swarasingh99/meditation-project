@@ -90,8 +90,8 @@ video{
 		transform: scale(3.5,3.5);
 	}
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:400px){
 	video{
-		transform: scale(3.5,3.5);
+		transform: scale(5,5);
 	}
 }
