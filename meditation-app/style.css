@@ -40,7 +40,7 @@
 
 .time-select button, .sound-picker button{
 	color: white;
-	width: 30%;
+	width: 40%;
 	height: 10%;
 	background: none;
 	border: solid 1px white;
@@ -80,3 +80,18 @@ video{
 	width:100%;
 }
 
+@media screen and (max-width:920px){
+	video{
+		transform: scale(2,2);
+	}
+}
+@media screen and (max-width:700px){
+	video{
+		transform: scale(3.5,3.5);
+	}
+}
+@media screen and (max-width:500px){
+	video{
+		transform: scale(3.5,3.5);
+	}
+}
