@@ -80,8 +80,3 @@ video{
 	width:100%;
 }
 
-@media screen and (min-height:800px){
-	video{
-		transform: scale(2,4);
-	}
-}
